@@ -16,9 +16,9 @@ const About = () => {
               Who We Are
             </h1>
             <p className="text-primary-foreground/70 max-w-5xl mx-auto text-lg mb-6">
-              <strong>Travelexpresso Hospitality Pvt. Ltd.</strong classname="text-gold"> is a dedicated Haj coordination and hospitality
-              management organization committed to supporting Haj Group Organizers (HGOs) in the smooth planning and
-              execution of Haj operations.
+              <strong classname="text-gold">Travelexpresso Hospitality Pvt. Ltd.</strong> is a dedicated Haj
+              coordination and hospitality management organization committed to supporting Haj Group Organizers (HGOs)
+              in the smooth planning and execution of Haj operations.
             </p>
 
             <p className="text-primary-foreground/70 max-w-5xl mx-auto text-lg mb-6">

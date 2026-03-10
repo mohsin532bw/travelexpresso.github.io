@@ -39,7 +39,7 @@ const Contact = () => {
             <div className="space-y-6">
               {[
                 { icon: MapPin, label: "Office Address", value: "Mumbai, Maharashtra, India" },
-                { icon: Phone, label: "Phone", value: "+91 123 456 7890" },
+                { icon: Phone, label: "Phone", value: "+91 83088 40038" },
                 { icon: Mail, label: "Email", value: "info@travelexpresso.com" },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4 bg-card border border-border rounded-xl p-5">

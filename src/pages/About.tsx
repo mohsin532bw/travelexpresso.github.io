@@ -15,16 +15,18 @@ const About = () => {
             <h1 className="text-4xl md:text-5xl font-display font-bold text-primary-foreground mt-3 mb-6">
               Who We Are
             </h1>
-            <p className="text-primary-foreground/70 max-w-2xl mx-auto text-lg">
+            <p className="text-primary-foreground/70 max-w-3xl mx-auto text-lg">
               Travelexpresso Hospitality Pvt. Ltd. is a Haj coordination and hospitality management company that
-              supports Haj Group Organizers (HGOs) in planning and executing Haj operations smoothly and efficiently. As
-              a Combined Haj Group Organizer (CHGO), we coordinate key aspects of Haj arrangements including
-              accommodation contracting in Makkah and Madinah, transportation, Mashaer services, and operational
-              processing through official systems such as Masar and Nusuk. Our role is to streamline coordination
-              between HGOs, service providers, and operational platforms to ensure timely execution, transparency, and
-              compliance with Haj guidelines. At Travelexpresso, we focus on efficient management, reliable
-              coordination, and structured support, enabling HGOs to provide a smooth and well-organized Haj experience
-              for their pilgrims
+              supports Haj Group Organizers (HGOs) in planning and executing Haj operations smoothly and efficiently.{" "}
+              <span>
+                As a Combined Haj Group Organizer (CHGO), we coordinate key aspects of Haj arrangements including
+                accommodation contracting in Makkah and Madinah, transportation, Mashaer services, and operational
+                processing through official systems such as Masar and Nusuk.
+              </span>{" "}
+              Our role is to streamline coordination between HGOs, service providers, and operational platforms to
+              ensure timely execution, transparency, and compliance with Haj guidelines. At Travelexpresso, we focus on
+              efficient management, reliable coordination, and structured support, enabling HGOs to provide a smooth and
+              well-organized Haj experience for their pilgrims
             </p>
           </motion.div>
         </div>

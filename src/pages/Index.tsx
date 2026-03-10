@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, type Easing } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
@@ -6,6 +6,18 @@ import {
   ChevronRight, Star, ArrowRight, CheckCircle2, MapPin
 } from "lucide-react";
 import Layout from "@/components/Layout";
+import heroImage from "@/assets/hero-makkah.jpg";
+import madinahImage from "@/assets/madinah-night.jpg";
+
+const easeOut: Easing = [0, 0, 0.2, 1];
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: (i: number) => ({
+    opacity: 1, y: 0,
+    transition: { delay: i * 0.1, duration: 0.5, ease: easeOut }
+  }),
+};
 import heroImage from "@/assets/hero-makkah.jpg";
 import madinahImage from "@/assets/madinah-night.jpg";
 

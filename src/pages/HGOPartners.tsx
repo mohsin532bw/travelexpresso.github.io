@@ -5,10 +5,26 @@ import { Button } from "@/components/ui/button";
 import { Handshake, TrendingUp, Shield, Users, ArrowRight, CheckCircle2 } from "lucide-react";
 
 const benefits = [
-  { icon: Handshake, title: "Streamlined Coordination", desc: "Single point of contact for all Saudi-side operations, contracts, and logistics." },
-  { icon: TrendingUp, title: "Cost Efficiency", desc: "Bulk contracting and consolidated operations reduce per-pilgrim costs significantly." },
-  { icon: Shield, title: "Full Compliance", desc: "We ensure all operations comply with Nusuk, Masar, and Saudi Haj Ministry standards." },
-  { icon: Users, title: "Dedicated Support", desc: "Round-the-clock operational support during the entire Haj season." },
+  {
+    icon: Handshake,
+    title: "Streamlined Coordination",
+    desc: "Single point of contact for all Saudi-side operations, contracts, and logistics.",
+  },
+  {
+    icon: TrendingUp,
+    title: "Cost Efficiency",
+    desc: "Bulk contracting and consolidated operations reduce per-pilgrim costs significantly.",
+  },
+  {
+    icon: Shield,
+    title: "Full Compliance",
+    desc: "We ensure all operations comply with Nusuk, Masar, and Saudi Haj Ministry standards.",
+  },
+  {
+    icon: Users,
+    title: "Dedicated Support",
+    desc: "Round-the-clock operational support during the entire Haj season.",
+  },
 ];
 
 const HGOPartners = () => {
@@ -22,7 +38,8 @@ const HGOPartners = () => {
               Partner With Travelexpresso
             </h1>
             <p className="text-primary-foreground/70 max-w-2xl mx-auto text-lg">
-              Join our network of 50+ HGO partners and leverage our expertise in Haj coordination, logistics, and compliance.
+              Join our network of 39+ HGO partners and leverage our expertise in Haj coordination, logistics, and
+              compliance.
             </p>
           </motion.div>
         </div>
@@ -76,7 +93,9 @@ const HGOPartners = () => {
             </ul>
             <div>
               <Button variant="gold" size="lg" asChild>
-                <Link to="/contact">Become a Partner <ArrowRight className="w-5 h-5" /></Link>
+                <Link to="/contact">
+                  Become a Partner <ArrowRight className="w-5 h-5" />
+                </Link>
               </Button>
             </div>
           </div>

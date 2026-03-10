@@ -32,9 +32,9 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-background">
+      <section className="py-14 sm:py-20 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-3 gap-10">
+          <div className="grid lg:grid-cols-3 gap-8 sm:gap-10">
             {/* Contact Info */}
             <div className="space-y-6">
               {[

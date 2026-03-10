@@ -18,7 +18,7 @@ const Contact = () => {
 
   return (
     <Layout>
-      <section className="bg-primary geometric-pattern py-20 md:py-28">
+      <section className="bg-primary geometric-pattern py-14 sm:py-20 md:py-28">
         <div className="container mx-auto px-4 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <span className="text-sm font-semibold text-gold uppercase tracking-widest">Contact Us</span>

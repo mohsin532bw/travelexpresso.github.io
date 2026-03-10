@@ -16,8 +16,15 @@ const About = () => {
               Who We Are
             </h1>
             <p className="text-primary-foreground/70 max-w-2xl mx-auto text-lg">
-              Travelexpresso Hospitality Pvt. Ltd. is a professional Haj coordination and hospitality management company
-              operating as a Combined Haj Group Organizer (CHGO).
+              Travelexpresso Hospitality Pvt. Ltd. is a Haj coordination and hospitality management company that
+              supports Haj Group Organizers (HGOs) in planning and executing Haj operations smoothly and efficiently. As
+              a Combined Haj Group Organizer (CHGO), we coordinate key aspects of Haj arrangements including
+              accommodation contracting in Makkah and Madinah, transportation, Mashaer services, and operational
+              processing through official systems such as Masar and Nusuk. Our role is to streamline coordination
+              between HGOs, service providers, and operational platforms to ensure timely execution, transparency, and
+              compliance with Haj guidelines. At Travelexpresso, we focus on efficient management, reliable
+              coordination, and structured support, enabling HGOs to provide a smooth and well-organized Haj experience
+              for their pilgrims
             </p>
           </motion.div>
         </div>
@@ -109,7 +116,7 @@ const About = () => {
             Want to Partner With Us?
           </h2>
           <p className="text-primary-foreground/70 mb-8 max-w-lg mx-auto">
-            Join 50+ HGO partners who trust Travelexpresso for their Haj operations.
+            Join 39+ HGO partners who trust Travelexpresso for their Haj operations.
           </p>
           <Button variant="hero" size="lg" asChild>
             <Link to="/contact">

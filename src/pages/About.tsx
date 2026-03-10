@@ -8,20 +8,20 @@ const About = () => {
   return (
     <Layout>
       {/* Hero */}
-      <section className="bg-primary geometric-pattern py-20 md:py-28">
+      <section className="bg-primary geometric-pattern py-14 sm:py-20 md:py-28">
         <div className="container mx-auto px-4 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <span className="text-sm font-semibold text-gold uppercase tracking-widest">About Us</span>
-            <h1 className="text-4xl md:text-5xl font-display font-bold text-primary-foreground mt-3 mb-6">
+            <span className="text-xs sm:text-sm font-semibold text-gold uppercase tracking-widest">About Us</span>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-primary-foreground mt-2 sm:mt-3 mb-4 sm:mb-6">
               Who We Are
             </h1>
-            <p className="text-primary-foreground/70 max-w-5xl mx-auto text-lg mb-6">
+            <p className="text-primary-foreground/70 max-w-5xl mx-auto text-sm sm:text-base md:text-lg mb-4 sm:mb-6">
               <strong className="text-gold">Travelexpresso Hospitality Pvt. Ltd.</strong> is a dedicated Haj
               coordination and hospitality management organization committed to supporting Haj Group Organizers (HGOs)
               in the smooth planning and execution of Haj operations.
             </p>
 
-            <p className="text-primary-foreground/70 max-w-5xl mx-auto text-lg mb-6">
+            <p className="text-primary-foreground/70 max-w-5xl mx-auto text-sm sm:text-base md:text-lg mb-4 sm:mb-6">
               Operating as a <strong className="text-gold">Combined Haj Group Organizer (CHGO)</strong>, Travelexpresso
               plays a central role in coordinating essential Haj services including accommodation arrangements in{" "}
               <strong className="text-gold">Makkah and Madinah</strong>, transportation management, Mashaer services,

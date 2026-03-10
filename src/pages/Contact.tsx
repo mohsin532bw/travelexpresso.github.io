@@ -18,11 +18,11 @@ const Contact = () => {
 
   return (
     <Layout>
-      <section className="bg-primary geometric-pattern py-20 md:py-28">
+      <section className="bg-primary geometric-pattern py-14 sm:py-20 md:py-28">
         <div className="container mx-auto px-4 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <span className="text-sm font-semibold text-gold uppercase tracking-widest">Contact Us</span>
-            <h1 className="text-4xl md:text-5xl font-display font-bold text-primary-foreground mt-3 mb-6">
+            <span className="text-xs sm:text-sm font-semibold text-gold uppercase tracking-widest">Contact Us</span>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-primary-foreground mt-2 sm:mt-3 mb-4 sm:mb-6">
               Get In Touch
             </h1>
             <p className="text-primary-foreground/70 max-w-2xl mx-auto text-lg">
@@ -32,9 +32,9 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-background">
+      <section className="py-14 sm:py-20 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-3 gap-10">
+          <div className="grid lg:grid-cols-3 gap-8 sm:gap-10">
             {/* Contact Info */}
             <div className="space-y-6">
               {[
@@ -65,7 +65,7 @@ const Contact = () => {
 
             {/* Form */}
             <div className="lg:col-span-2">
-              <form onSubmit={handleSubmit} className="bg-card border border-border rounded-xl p-8 space-y-5">
+              <form onSubmit={handleSubmit} className="bg-card border border-border rounded-xl p-5 sm:p-8 space-y-4 sm:space-y-5">
                 <div className="grid md:grid-cols-2 gap-5">
                   <div>
                     <label className="text-sm font-medium text-foreground mb-1.5 block">Full Name</label>

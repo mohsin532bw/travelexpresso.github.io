@@ -48,7 +48,7 @@ const Header = () => {
         <div className="hidden lg:flex items-center gap-3">
           <a href="tel:+911234567890" className="flex items-center gap-1.5 text-sm text-gold">
             <Phone className="w-4 h-4" />
-            <span>+91 123 456 7890</span>
+            <span>+91 83088 40038</span>
           </a>
         </div>
 
@@ -87,7 +87,7 @@ const Header = () => {
                 </Link>
               ))}
               <a href="tel:+911234567890" className="flex items-center gap-2 px-4 py-3 text-gold text-sm">
-                <Phone className="w-4 h-4" /> +91 123 456 7890
+                <Phone className="w-4 h-4" /> +91 83088 40038
               </a>
             </nav>
           </motion.div>

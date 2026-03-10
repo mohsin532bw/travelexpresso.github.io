@@ -16,7 +16,15 @@ const About = () => {
               Who We Are
             </h1>
             <p className="text-primary-foreground/70 max-w-2xl mx-auto text-lg">
-              Travelexpresso Hospitality Pvt. Ltd. is a professional Haj coordination and hospitality management company operating as a Combined Haj Group Organizer (CHGO).
+              Travelexpresso Hospitality Pvt. Ltd. is a Haj coordination and hospitality management company that
+              supports Haj Group Organizers (HGOs) in planning and executing Haj operations smoothly and efficiently. As
+              a Combined Haj Group Organizer (CHGO), we coordinate key aspects of Haj arrangements including
+              accommodation contracting in Makkah and Madinah, transportation, Mashaer services, and operational
+              processing through official systems such as Masar and Nusuk. Our role is to streamline coordination
+              between HGOs, service providers, and operational platforms to ensure timely execution, transparency, and
+              compliance with Haj guidelines. At Travelexpresso, we focus on efficient management, reliable
+              coordination, and structured support, enabling HGOs to provide a smooth and well-organized Haj experience
+              for their pilgrims.
             </p>
           </motion.div>
         </div>
@@ -27,8 +35,16 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">
             {[
-              { icon: Target, title: "Our Mission", text: "To provide seamless, transparent, and compliant Haj coordination services that enable HGO partners to deliver an exceptional pilgrimage experience for every pilgrim." },
-              { icon: Eye, title: "Our Vision", text: "To be India's most trusted Haj coordination platform, setting the standard for operational excellence, financial transparency, and pilgrim satisfaction." },
+              {
+                icon: Target,
+                title: "Our Mission",
+                text: "To provide seamless, transparent, and compliant Haj coordination services that enable HGO partners to deliver an exceptional pilgrimage experience for every pilgrim.",
+              },
+              {
+                icon: Eye,
+                title: "Our Vision",
+                text: "To be India's most trusted Haj coordination platform, setting the standard for operational excellence, financial transparency, and pilgrim satisfaction.",
+              },
             ].map((item, i) => (
               <motion.div
                 key={item.title}
@@ -58,9 +74,21 @@ const About = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: Heart, title: "Pilgrim-First Approach", desc: "Every decision we make prioritizes the comfort and spiritual experience of pilgrims." },
-              { icon: Award, title: "Operational Excellence", desc: "We maintain the highest standards in logistics, compliance, and coordination." },
-              { icon: Target, title: "Transparency", desc: "Complete financial and operational transparency with all our HGO partners." },
+              {
+                icon: Heart,
+                title: "Pilgrim-First Approach",
+                desc: "Every decision we make prioritizes the comfort and spiritual experience of pilgrims.",
+              },
+              {
+                icon: Award,
+                title: "Operational Excellence",
+                desc: "We maintain the highest standards in logistics, compliance, and coordination.",
+              },
+              {
+                icon: Target,
+                title: "Transparency",
+                desc: "Complete financial and operational transparency with all our HGO partners.",
+              },
             ].map((v, i) => (
               <motion.div
                 key={v.title}
@@ -84,10 +112,16 @@ const About = () => {
       {/* CTA */}
       <section className="py-16 bg-primary">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-display font-bold text-primary-foreground mb-4">Want to Partner With Us?</h2>
-          <p className="text-primary-foreground/70 mb-8 max-w-lg mx-auto">Join 50+ HGO partners who trust Travelexpresso for their Haj operations.</p>
+          <h2 className="text-2xl md:text-3xl font-display font-bold text-primary-foreground mb-4">
+            Want to Partner With Us?
+          </h2>
+          <p className="text-primary-foreground/70 mb-8 max-w-lg mx-auto">
+            Join 50+ HGO partners who trust Travelexpresso for their Haj operations.
+          </p>
           <Button variant="hero" size="lg" asChild>
-            <Link to="/contact">Contact Us <ArrowRight className="w-5 h-5" /></Link>
+            <Link to="/contact">
+              Contact Us <ArrowRight className="w-5 h-5" />
+            </Link>
           </Button>
         </div>
       </section>

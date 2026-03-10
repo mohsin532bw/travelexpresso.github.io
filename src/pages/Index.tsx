@@ -2,8 +2,17 @@ import { motion, type Easing } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
-  Building2, Bus, Users, FileCheck, Wallet, ShieldCheck,
-  ChevronRight, Star, ArrowRight, CheckCircle2, MapPin
+  Building2,
+  Bus,
+  Users,
+  FileCheck,
+  Wallet,
+  ShieldCheck,
+  ChevronRight,
+  Star,
+  ArrowRight,
+  CheckCircle2,
+  MapPin,
 } from "lucide-react";
 import Layout from "@/components/Layout";
 import heroImage from "@/assets/hero-makkah.jpg";
@@ -14,33 +23,68 @@ const easeOut: Easing = [0, 0, 0.2, 1];
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
-    opacity: 1, y: 0,
-    transition: { delay: i * 0.1, duration: 0.5, ease: easeOut }
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.1, duration: 0.5, ease: easeOut },
   }),
 };
 
-
-
 const services = [
-  { icon: Building2, title: "Haj Accommodation", desc: "Hotel contracting in Makkah & Madinah with Masar/Nusuk portal compliance." },
-  { icon: MapPin, title: "Mashaer Services", desc: "Mina accommodation, Arafat arrangements, and Muzdalifah coordination." },
-  { icon: Bus, title: "Transport Contracting", desc: "Airport transfers, intercity transport, and Mashaer bus logistics." },
-  { icon: Users, title: "Pilgrim Data Management", desc: "Registration systems, visa coordination, and MOFA documentation." },
-  { icon: Wallet, title: "Financial Coordination", desc: "SAR wallet management, IBAN transfers, and cost distribution." },
-  { icon: ShieldCheck, title: "Operational Compliance", desc: "Saudi Haj Ministry regulations and Nusuk/Masar system adherence." },
+  {
+    icon: Building2,
+    title: "Haj Accommodation",
+    desc: "Hotel contracting in Makkah & Madinah with Masar/Nusuk portal compliance.",
+  },
+  {
+    icon: MapPin,
+    title: "Mashaer Services",
+    desc: "Mina accommodation, Arafat arrangements, and Muzdalifah coordination.",
+  },
+  {
+    icon: Bus,
+    title: "Transport Contracting",
+    desc: "Airport transfers, intercity transport, and Mashaer bus logistics.",
+  },
+  {
+    icon: Users,
+    title: "Pilgrim Data Management",
+    desc: "Registration systems, visa coordination, and MOFA documentation.",
+  },
+  {
+    icon: Wallet,
+    title: "Financial Coordination",
+    desc: "SAR wallet management, IBAN transfers, and cost distribution.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Operational Compliance",
+    desc: "Saudi Haj Ministry regulations and Nusuk/Masar system adherence.",
+  },
 ];
 
 const stats = [
-  { value: "10,000+", label: "Pilgrims Managed" },
-  { value: "50+", label: "HGO Partners" },
-  { value: "20+", label: "Saudi Contracts" },
-  { value: "5+", label: "Years of Excellence" },
+  { value: "2,500+", label: "Pilgrims Managed" },
+  { value: "39+", label: "HGO Partners" },
+  { value: "350+", label: "Saudi Contracts" },
+  { value: "2+", label: "Years of Excellence" },
 ];
 
 const testimonials = [
-  { name: "Ahmed Khan", role: "HGO Partner, Mumbai", text: "Travelexpresso transformed our Haj operations. Their coordination is flawless and gave us peace of mind." },
-  { name: "Fatima Begum", role: "HGO Director, Hyderabad", text: "Professional, transparent, and deeply committed. The best CHGO partner we've ever worked with." },
-  { name: "Rashid Sheikh", role: "Travel Agency, Delhi", text: "Their financial reconciliation and compliance support saved us countless hours of work." },
+  {
+    name: "Ahmed Jamal Khan",
+    role: "HGO Partner, Mumbai",
+    text: "Travelexpresso transformed our Haj operations. Their coordination is flawless and gave us peace of mind.",
+  },
+  {
+    name: "Rafid Bardi",
+    role: "HGO Director, Hyderabad",
+    text: "Professional, transparent, and deeply committed. The best CHGO partner we've ever worked with.",
+  },
+  {
+    name: "Junaid Patel",
+    role: "Travel Agency, Delhi",
+    text: "Their financial reconciliation and compliance support saved us countless hours of work.",
+  },
 ];
 
 const Index = () => {
@@ -49,29 +93,44 @@ const Index = () => {
       {/* Hero */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroImage} alt="Kaaba in Makkah during Hajj" className="w-full h-full object-cover" loading="eager" />
+          <img
+            src={heroImage}
+            alt="Kaaba in Makkah during Hajj"
+            className="w-full h-full object-cover"
+            loading="eager"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-navy-dark/95 via-navy/80 to-navy/40" />
         </div>
         <div className="relative container mx-auto px-4 py-20">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            className="max-w-2xl"
-          >
-            <motion.div variants={fadeInUp} custom={0} className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-1.5 mb-6">
+          <motion.div initial="hidden" animate="visible" className="max-w-2xl">
+            <motion.div
+              variants={fadeInUp}
+              custom={0}
+              className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-1.5 mb-6"
+            >
               <Star className="w-4 h-4 text-gold" />
               <span className="text-sm font-medium text-gold">Trusted Haj Coordination Partner</span>
             </motion.div>
-            <motion.h1 variants={fadeInUp} custom={1} className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary-foreground leading-tight mb-6">
-              Simplifying Haj Operations Through{" "}
-              <span className="text-gradient-gold">Professional Coordination</span>
+            <motion.h1
+              variants={fadeInUp}
+              custom={1}
+              className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary-foreground leading-tight mb-6"
+            >
+              Simplifying Haj Operations Through <span className="text-gradient-gold">Professional Coordination</span>
             </motion.h1>
-            <motion.p variants={fadeInUp} custom={2} className="text-lg text-primary-foreground/80 leading-relaxed mb-8 max-w-xl">
-              As a Combined Haj Group Organizer, we manage logistics, contracts, and operations between Indian operators and Saudi service providers — ensuring a seamless pilgrimage experience.
+            <motion.p
+              variants={fadeInUp}
+              custom={2}
+              className="text-lg text-primary-foreground/80 leading-relaxed mb-8 max-w-xl"
+            >
+              As a Combined Haj Group Organizer, we manage logistics, contracts, and operations between Indian operators
+              and Saudi service providers — ensuring a seamless pilgrimage experience.
             </motion.p>
             <motion.div variants={fadeInUp} custom={3} className="flex flex-wrap gap-4">
               <Button variant="hero" size="lg" asChild>
-                <Link to="/services">Our Services <ChevronRight className="w-5 h-5" /></Link>
+                <Link to="/services">
+                  Our Services <ChevronRight className="w-5 h-5" />
+                </Link>
               </Button>
               <Button variant="heroOutline" size="lg" asChild>
                 <Link to="/hgo-partners">Partner With Us</Link>
@@ -116,7 +175,8 @@ const Index = () => {
               Comprehensive Haj Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              From accommodation to compliance, we handle every aspect of Haj operations so you can focus on serving pilgrims.
+              From accommodation to compliance, we handle every aspect of Haj operations so you can focus on serving
+              pilgrims.
             </p>
           </motion.div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -139,7 +199,9 @@ const Index = () => {
           </div>
           <div className="text-center mt-12">
             <Button variant="gold" size="lg" asChild>
-              <Link to="/services">View All Services <ArrowRight className="w-5 h-5" /></Link>
+              <Link to="/services">
+                View All Services <ArrowRight className="w-5 h-5" />
+              </Link>
             </Button>
           </div>
         </div>
@@ -149,17 +211,14 @@ const Index = () => {
       <section className="py-20 md:py-28 bg-muted geometric-pattern">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
+            <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
               <span className="text-sm font-semibold text-gold uppercase tracking-widest">About Travelexpresso</span>
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mt-3 mb-6">
                 Your Trusted CHGO Partner for Seamless Haj Operations
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Travelexpresso Hospitality Pvt. Ltd. serves as a central coordination platform for multiple Haj Group Organizers, managing large-scale pilgrim operations with full compliance to Saudi Haj regulations.
+                Travelexpresso Hospitality Pvt. Ltd. serves as a central coordination platform for multiple Haj Group
+                Organizers, managing large-scale pilgrim operations with full compliance to Saudi Haj regulations.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
@@ -175,7 +234,9 @@ const Index = () => {
                 ))}
               </ul>
               <Button variant="gold" asChild>
-                <Link to="/about">Learn More About Us <ArrowRight className="w-5 h-5" /></Link>
+                <Link to="/about">
+                  Learn More About Us <ArrowRight className="w-5 h-5" />
+                </Link>
               </Button>
             </motion.div>
             <motion.div
@@ -243,20 +304,19 @@ const Index = () => {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 bg-primary geometric-pattern" />
         <div className="relative container mx-auto px-4 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <h2 className="text-3xl md:text-4xl font-display font-bold text-primary-foreground mb-4">
               Ready to Streamline Your Haj Operations?
             </h2>
             <p className="text-primary-foreground/70 max-w-xl mx-auto mb-8">
-              Partner with Travelexpresso and experience professional Haj coordination that you and your pilgrims deserve.
+              Partner with Travelexpresso and experience professional Haj coordination that you and your pilgrims
+              deserve.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button variant="hero" size="lg" asChild>
-                <Link to="/contact">Get In Touch <ArrowRight className="w-5 h-5" /></Link>
+                <Link to="/contact">
+                  Get In Touch <ArrowRight className="w-5 h-5" />
+                </Link>
               </Button>
               <Button variant="heroOutline" size="lg" asChild>
                 <Link to="/hgo-partners">Become a Partner</Link>

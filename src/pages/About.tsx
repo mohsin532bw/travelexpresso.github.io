@@ -22,10 +22,11 @@ const About = () => {
             </p>
 
             <p className="text-primary-foreground/70 max-w-5xl mx-auto text-lg mb-6">
-              Operating as a <strong>Combined Haj Group Organizer (CHGO)</strong>, Travelexpresso plays a central role
-              in coordinating essential Haj services including accommodation arrangements in{" "}
-              <strong>Makkah and Madinah</strong>, transportation management, Mashaer services, and operational
-              processing through official platforms such as <strong>Masar</strong> and <strong>Nusuk</strong>.
+              Operating as a <strong className="text-gold">Combined Haj Group Organizer (CHGO)</strong>, Travelexpresso
+              plays a central role in coordinating essential Haj services including accommodation arrangements in{" "}
+              <strong className="text-gold">Makkah and Madinah</strong>, transportation management, Mashaer services,
+              and operational processing through official platforms such as <strong className="text-gold">Masar</strong>{" "}
+              and <strong className="text-gold">Nusuk</strong>.
             </p>
 
             <p className="text-primary-foreground/70 max-w-5xl mx-auto text-lg mb-6">

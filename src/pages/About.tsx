@@ -29,13 +29,13 @@ const About = () => {
               and <strong className="text-gold">Nusuk</strong>.
             </p>
 
-            <p className="text-primary-foreground/70 max-w-5xl mx-auto text-lg mb-6">
+            <p className="text-primary-foreground/70 max-w-5xl mx-auto text-sm sm:text-base md:text-lg mb-4 sm:mb-6">
               Our organization works closely with HGOs, service providers, and operational partners to ensure every
               stage of Haj preparation is handled with efficiency, transparency, and strict adherence to operational
               timelines and guidelines.
             </p>
 
-            <p className="text-primary-foreground/70 max-w-5xl mx-auto text-lg">
+            <p className="text-primary-foreground/70 max-w-5xl mx-auto text-sm sm:text-base md:text-lg mb-4 sm:mb-6">
               With a strong focus on structured coordination and operational reliability, Travelexpresso helps
               streamline complex processes and enables HGOs to focus on serving their pilgrims while we manage the
               backend coordination required for successful Haj operations.

@@ -38,7 +38,7 @@ const Contact = () => {
             {/* Contact Info */}
             <div className="space-y-6">
               {[
-                { icon: MapPin, label: "Office Address", value: "Mumbai, Maharashtra, India" },
+                { icon: MapPin, label: "Office Address", value: "Akola, Maharashtra, India" },
                 { icon: Phone, label: "Phone", value: "+91 83088 40038" },
                 { icon: Mail, label: "Email", value: "info@travelexpresso.com" },
               ].map((item) => (

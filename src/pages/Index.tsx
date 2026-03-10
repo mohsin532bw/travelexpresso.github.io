@@ -18,16 +18,8 @@ const fadeInUp = {
     transition: { delay: i * 0.1, duration: 0.5, ease: easeOut }
   }),
 };
-import heroImage from "@/assets/hero-makkah.jpg";
-import madinahImage from "@/assets/madinah-night.jpg";
 
-const fadeInUp = {
-  hidden: { opacity: 0, y: 30 },
-  visible: (i: number) => ({
-    opacity: 1, y: 0,
-    transition: { delay: i * 0.1, duration: 0.5, ease: "easeOut" }
-  }),
-};
+
 
 const services = [
   { icon: Building2, title: "Haj Accommodation", desc: "Hotel contracting in Makkah & Madinah with Masar/Nusuk portal compliance." },

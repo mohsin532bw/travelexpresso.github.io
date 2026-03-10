@@ -77,12 +77,12 @@ const testimonials = [
   },
   {
     name: "Rafid Bardi",
-    role: "HGO Director, Hyderabad",
+    role: "HGO Director, Mumbai",
     text: "Professional, transparent, and deeply committed. The best CHGO partner we've ever worked with.",
   },
   {
     name: "Junaid Patel",
-    role: "Travel Agency, Delhi",
+    role: "HGO Partner, Mumbai",
     text: "Their financial reconciliation and compliance support saved us countless hours of work.",
   },
 ];
@@ -223,7 +223,7 @@ const Index = () => {
               <ul className="space-y-3 mb-8">
                 {[
                   "End-to-end Haj logistics management",
-                  "Trusted by 50+ HGO partners across India",
+                  "Trusted by 39+ HGO partners across India",
                   "Full Nusuk & Masar system compliance",
                   "Transparent financial coordination",
                 ].map((item) => (
@@ -252,7 +252,7 @@ const Index = () => {
                 loading="lazy"
               />
               <div className="absolute -bottom-6 -left-6 bg-card rounded-xl shadow-xl p-5 border border-gold/20">
-                <div className="text-2xl font-display font-bold text-gold">10,000+</div>
+                <div className="text-2xl font-display font-bold text-gold">2,500+</div>
                 <div className="text-sm text-muted-foreground">Pilgrims Served</div>
               </div>
             </motion.div>

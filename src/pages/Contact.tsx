@@ -65,7 +65,7 @@ const Contact = () => {
 
             {/* Form */}
             <div className="lg:col-span-2">
-              <form onSubmit={handleSubmit} className="bg-card border border-border rounded-xl p-8 space-y-5">
+              <form onSubmit={handleSubmit} className="bg-card border border-border rounded-xl p-5 sm:p-8 space-y-4 sm:space-y-5">
                 <div className="grid md:grid-cols-2 gap-5">
                   <div>
                     <label className="text-sm font-medium text-foreground mb-1.5 block">Full Name</label>

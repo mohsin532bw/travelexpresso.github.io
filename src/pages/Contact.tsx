@@ -21,8 +21,8 @@ const Contact = () => {
       <section className="bg-primary geometric-pattern py-14 sm:py-20 md:py-28">
         <div className="container mx-auto px-4 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <span className="text-sm font-semibold text-gold uppercase tracking-widest">Contact Us</span>
-            <h1 className="text-4xl md:text-5xl font-display font-bold text-primary-foreground mt-3 mb-6">
+            <span className="text-xs sm:text-sm font-semibold text-gold uppercase tracking-widest">Contact Us</span>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-primary-foreground mt-2 sm:mt-3 mb-4 sm:mb-6">
               Get In Touch
             </h1>
             <p className="text-primary-foreground/70 max-w-2xl mx-auto text-lg">

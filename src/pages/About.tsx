@@ -15,26 +15,26 @@ const About = () => {
             <h1 className="text-4xl md:text-5xl font-display font-bold text-primary-foreground mt-3 mb-6">
               Who We Are
             </h1>
-            <p className="text-2xl lg:text-3xl font-display text-primary-foreground mt-3 mb-6">
+            <p className="text-2xl lg:text-3xl font-display text-gold text-primary-foreground mt-3 mb-6">
               <strong>Travelexpresso Hospitality Pvt. Ltd.</strong> is a dedicated Haj coordination and hospitality
               management organization committed to supporting Haj Group Organizers (HGOs) in the smooth planning and
               execution of Haj operations.
             </p>
 
-            <p class="about-text">
+            <p className="text-2xl lg:text-3xl font-display text-gold text-primary-foreground mt-3 mb-6">
               Operating as a <strong>Combined Haj Group Organizer (CHGO)</strong>, Travelexpresso plays a central role
               in coordinating essential Haj services including accommodation arrangements in{" "}
               <strong>Makkah and Madinah</strong>, transportation management, Mashaer services, and operational
               processing through official platforms such as <strong>Masar</strong> and <strong>Nusuk</strong>.
             </p>
 
-            <p class="about-text">
+            <p className="text-2xl lg:text-3xl font-display text-gold text-primary-foreground mt-3 mb-6">
               Our organization works closely with HGOs, service providers, and operational partners to ensure every
               stage of Haj preparation is handled with efficiency, transparency, and strict adherence to operational
               timelines and guidelines.
             </p>
 
-            <p class="about-text">
+            <p className="text-2xl lg:text-3xl font-display text-gold text-primary-foreground mt-3 mb-6">
               With a strong focus on structured coordination and operational reliability, Travelexpresso helps
               streamline complex processes and enables HGOs to focus on serving their pilgrims while we manage the
               backend coordination required for successful Haj operations.
